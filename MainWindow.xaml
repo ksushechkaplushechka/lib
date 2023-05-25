@@ -1,0 +1,17 @@
+﻿<Window x:Class="forlibrary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:forlibrary"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Style="{DynamicResource Button}" Content="Button" HorizontalAlignment="Left" Height="42" Margin="53,27,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click"/>
+        <Button Style="{DynamicResource Button}" Content="Button" HorizontalAlignment="Left" Height="42" Margin="217,27,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click_1"/>
+        <TextBox Style="{DynamicResource TextBox}" HorizontalAlignment="Left" Height="73" Margin="360,27,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="223"/>
+        <TextBox Style="{DynamicResource TextBox}" HorizontalAlignment="Left" Height="73" Margin="360,164,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="223"/>
+        <DataGrid Style="{DynamicResource DataGrid}" x:Name="Grid" HorizontalAlignment="Left" Height="165" Margin="81,200,0,0" VerticalAlignment="Top" Width="237" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <ListBox Style="{DynamicResource ListBox}" HorizontalAlignment="Left" Height="86" Margin="360,310,0,0" VerticalAlignment="Top" Width="223" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+    </Grid>
+</Window>

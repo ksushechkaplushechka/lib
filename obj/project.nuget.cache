@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1QEUKP1G5TbXch5YZsPZTwRa8W2l1bH09KBsH9uKfNcGzG4/OAEGHZtVn3Ze03TWi2SaXk/vAK5jvv9snjAQQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\porfi\\source\\repos\\forlibrary\\forlibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\porfi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
